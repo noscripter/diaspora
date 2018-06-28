@@ -54,7 +54,7 @@ gem "rack-cors", "0.4.0", require: "rack/cors"
 # CSS
 
 gem "bootstrap-sass", "3.3.6"
-gem "compass-rails",  "2.0.5"
+gem "compass-rails", "2.0.5"
 gem "sass-rails",     "5.0.4"
 gem "autoprefixer-rails", "6.3.3.1"
 gem "bootstrap-switch-rails", "3.3.3"
@@ -168,7 +168,7 @@ gem "addressable",        "2.3.8", require: "addressable/uri"
 gem "faraday",            "0.9.2"
 gem "faraday_middleware", "0.10.0"
 gem "faraday-cookie_jar", "0.0.6"
-gem "typhoeus",           "1.0.1"
+gem "typhoeus", "1.0.1"
 
 # Views
 
@@ -234,11 +234,11 @@ group :development do
   # Automatic test runs
   gem "guard-cucumber", "1.5.4"
   gem "guard-jshintrb", "1.1.1"
-  gem "guard-rspec",    "4.6.4"
-  gem "guard-rubocop",  "1.2.0"
-  gem "guard",          "2.13.0", require: false
+  gem "guard-rspec", "4.6.4"
+  gem "guard-rubocop", "1.2.0"
+  gem "guard", "2.13.0", require: false
   gem "rb-fsevent",     "0.9.7", require: false
-  gem "rb-inotify",     "0.9.7", require: false
+  gem "rb-inotify", "0.9.7", require: false
 
   # Linters
   gem "jshintrb",       "0.3.0"
