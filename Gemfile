@@ -28,7 +28,7 @@ gem "devise-token_authenticatable", "~> 0.4.0"
 
 # Captcha
 
-gem "simple_captcha2", "0.4.0", require: "simple_captcha"
+gem "simple_captcha2", "0.4.0"
 
 # Background processing
 
@@ -54,8 +54,8 @@ gem "rack-cors", "0.4.0", require: "rack/cors"
 # CSS
 
 gem "bootstrap-sass", "3.3.6"
-gem "compass-rails",  "2.0.5"
-gem "sass-rails",     "5.0.4"
+gem "compass-rails", "2.0.5"
+gem "sass-rails", "5.0.4"
 gem "autoprefixer-rails", "6.3.3.1"
 gem "bootstrap-switch-rails", "3.3.3"
 
@@ -82,16 +82,16 @@ gem "uuid", "2.3.8"
 
 # Icons
 
-gem "entypo-rails", "3.0.0.pre.rc2"
+gem "entypo-rails", "3.0.0"
 
 # JavaScript
 
 gem "backbone-on-rails", "1.2.0.0"
 gem "handlebars_assets", "0.23.0"
-gem "jquery-rails",      "4.1.0"
-gem "jquery-ui-rails",   "5.0.5"
-gem "js_image_paths",    "0.1.0"
-gem "js-routes",         "1.2.4"
+gem "jquery-rails", "4.1.0"
+gem "jquery-ui-rails", "5.0.5"
+gem "js_image_paths", "0.1.0"
+gem "js-routes", "1.2.4"
 
 source "https://rails-assets.org" do
   gem "rails-assets-jquery",                              "1.12.0" # Should be kept in sync with jquery-rails
@@ -119,7 +119,7 @@ end
 
 gem "http_accept_language", "2.0.5"
 gem "i18n-inflector-rails", "1.0.7"
-gem "rails-i18n",           "4.0.8"
+gem "rails-i18n", "4.0.8"
 
 # Mail
 
@@ -134,7 +134,7 @@ gem "leaflet-rails",       "0.7.4"
 gem "nokogiri",          "1.6.7.2"
 gem "redcarpet",         "3.3.4"
 gem "twitter-text",      "1.13.3"
-gem "roxml",             "3.1.6"
+gem "roxml", "3.1.6"
 gem "ruby-oembed",       "0.9.0"
 gem "open_graph_reader", "0.6.1"
 
@@ -172,11 +172,11 @@ gem "typhoeus",           "1.0.1"
 
 # Views
 
-gem "gon",                     "6.0.1"
+gem "gon", "6.0.1"
 gem "hamlit",                  "2.2.1"
-gem "mobile-fu",               "1.3.1"
+gem "mobile-fu", "1.3.1"
 gem "will_paginate",           "3.1.0"
-gem "rails-timeago",           "2.11.0"
+gem "rails-timeago", "2.11.0"
 
 # Logging
 
@@ -270,7 +270,7 @@ end
 group :test do
   # RSpec (unit tests, some integration tests)
 
-  gem "fixture_builder",   "0.4.1"
+  gem "fixture_builder", "0.4.1"
   gem "fuubar",            "2.0.0"
   gem "rspec-instafail",   "0.4.0", require: false
   gem "test_after_commit", "0.4.2"
@@ -289,7 +289,7 @@ group :test do
   gem "factory_girl_rails", "4.6.0"
   gem "timecop",            "0.8.0"
   gem "webmock",            "1.22.6", require: false
-  gem "shoulda-matchers",   "3.1.1"
+  gem "shoulda-matchers", "3.1.1"
 
   gem "diaspora_federation-test", "0.0.13"
 end
@@ -305,7 +305,7 @@ group :development, :test do
   gem "jasmine",                   "2.4.0"
   gem "jasmine-jquery-rails",      "2.0.3"
   gem "rails-assets-jasmine-ajax", "3.2.0", source: "https://rails-assets.org"
-  gem "sinon-rails",               "1.15.0"
+  gem "sinon-rails", "1.15.0"
 
   # silence assets
   gem "quiet_assets", "1.1.0"
