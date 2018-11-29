@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "4.2.5.2"
+gem "rails", "4.2.11"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -28,7 +28,7 @@ gem "devise-token_authenticatable", "~> 0.4.0"
 
 # Captcha
 
-gem "simple_captcha2", "0.4.0", require: "simple_captcha"
+gem "simple_captcha2", "0.4.0"
 
 # Background processing
 
@@ -90,7 +90,7 @@ gem "backbone-on-rails", "1.2.0.0"
 gem "handlebars_assets", "0.23.0"
 gem "jquery-rails",      "4.1.0"
 gem "jquery-ui-rails",   "5.0.5"
-gem "js_image_paths",    "0.1.0"
+gem "js_image_paths", "0.1.0"
 gem "js-routes",         "1.2.4"
 
 source "https://rails-assets.org" do
@@ -174,7 +174,7 @@ gem "typhoeus",           "1.0.1"
 
 gem "gon",                     "6.0.1"
 gem "hamlit",                  "2.2.1"
-gem "mobile-fu",               "1.3.1"
+gem "mobile-fu", "1.3.1"
 gem "will_paginate",           "3.1.0"
 gem "rails-timeago",           "2.11.0"
 
