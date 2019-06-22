@@ -53,7 +53,7 @@ gem "rack-cors", "0.4.0", require: "rack/cors"
 
 # CSS
 
-gem "bootstrap-sass", "3.3.6"
+gem "bootstrap-sass", "3.4.0"
 gem "compass-rails",  "2.0.5"
 gem "sass-rails",     "5.0.4"
 gem "autoprefixer-rails", "6.3.3.1"
@@ -88,7 +88,7 @@ gem "entypo-rails", "3.0.0.pre.rc2"
 
 gem "backbone-on-rails", "1.2.0.0"
 gem "handlebars_assets", "0.23.0"
-gem "jquery-rails",      "4.1.0"
+gem "jquery-rails", "4.3.4"
 gem "jquery-ui-rails",   "5.0.5"
 gem "js_image_paths",    "0.1.0"
 gem "js-routes",         "1.2.4"
